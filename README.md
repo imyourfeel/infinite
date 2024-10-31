@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/yunohost-themes/yunoInfinite/screenshots/yunoInfiniteDark.png" alt="YunoInfinite Logo" width="128" height="128">
+
 
 # yunoInfinite
 
@@ -12,5 +12,3 @@ https://yunohost.org/#/theming
 
 ## Screenshots
 
-![Screen1](https://raw.githubusercontent.com/yunohost-themes/yunoInfinite/screenshots/screen1.jpg)
-![Screen2](https://raw.githubusercontent.com/yunohost-themes/yunoInfinite/screenshots/screen2.jpg)
