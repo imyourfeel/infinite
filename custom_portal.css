@@ -1,0 +1,147 @@
+/*
+===============================================================================
+- YunoInfinite theme crafted with ♥ by Finger-san
+Based on the YunoHost Clouds theme, released under AGPL-3.0. See LICENSE file
+for additional details.
+===============================================================================
+*/
+
+/*
+===============================================================================
+This stylesheet contains extra CSS rules for customizing the YunoHost user 
+portal, including custom styles for app tiles, buttons, and more.
+===============================================================================
+*/
+
+/* Loading custom fonts Source Code Pro Regular & Bold */
+@font-face {
+  font-family: 'SF_Pro_Display_B';
+  src: url('fonts/SFPRODISPLAYBOLD.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SF_Pro_Display_R';
+  src: url('fonts/SFPRODISPLAYREGULAR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Login Page Styles */
+.messages {
+  font-family: 'SF_Pro_Display_B';
+  color: #FFF;
+}
+.messages.info {
+  background: rgba(0, 0, 0, 0.6);
+  border: solid rgba(255, 197, 8, 0.8);
+}
+.messages.danger {
+  background: rgba(100, 0, 0, 0.8);
+}
+
+.login-form .form-group {
+  background: none;
+}
+.login-form .form-text {
+  background: rgba(0, 0, 0, 0.8);
+  color: rgba(255, 197, 8);
+}
+
+/* Profile Page Customizations */
+.btn {
+  font-family: 'SF_Pro_Display_R';
+}
+.btn:hover {
+  font-family: 'SF_Pro_Display_B';
+}
+.link-btn {
+  background: rgba(0, 0, 0, 0.6);
+}
+.link-btn:hover {
+  font-family: 'SF_Pro_Display_B';
+  text-decoration: none;
+  background: rgba(255, 197, 8, 0.8);
+  color: black;
+}
+.classic-btn {
+  background: rgba(0, 0, 0, 0.6);
+}
+.classic-btn:hover {
+  font-family: 'SF_Pro_Display_B';
+  background: rgba(255, 197, 8, 0.8);
+  color: black;
+}
+
+.form-text {
+  font-family: 'SF_Pro_Display_R';
+  background: rgba(50, 50, 50, 0.8);
+}
+.validate-btn {
+  font-family: 'SF_Pro_Display_R';
+  background: rgba(0, 50, 0, 0.8);
+}
+.validate-btn:hover {
+  font-family: 'SF_Pro_Display_B';
+  color: black;
+}
+.form-group {
+  font-family: 'SF_Pro_Display_B' !important;
+}
+
+/* Text Customizations */
+.user-container h2,
+.user-container small,
+.user-container .user-mail,
+.content .footer a,
+a.app-tile,
+#ynh-logout {
+  color: rgb(255, 197, 8) !important;
+  font-family: 'SF_Pro_Display_R';
+}
+
+#ynh-logout:hover {
+  font-family: 'SF_Pro_Display_B';
+  color: black !important;
+  background-color: rgb(225, 197, 8);
+}
+
+.user-container .user-username {
+  font-family: 'SF_Pro_Display_B';
+}
+
+.user-container .user-fullname {
+  font-family: 'SF_Pro_Display_R';
+}
+
+.ynh-user-portal {
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* App Tile Styles */
+.app-tile {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border: solid rgba(255, 197, 8);
+}
+.app-tile:hover {
+  background-image: url("./tileHoverTexture.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-tile:hover:after,
+.app-tile:focus:after,
+.app-tile:hover:before,
+.app-tile:focus:before {
+  background: rgba(255, 197, 8, 0.8) !important;
+}
+
+/* Custom Logo */
+#ynh-logo {
+  z-index: 10;
+  background-image: url("./yunoInfinite.png");
+}
